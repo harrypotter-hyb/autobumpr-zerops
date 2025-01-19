@@ -73,7 +73,7 @@ async function startBumpLoop() {
 
             // Wait 2 hours and 15 minutes before next cycle
             console.log('Bump cycle complete. Waiting 2h15m before next cycle...');
-            await new Promise(resolve => setTimeout(resolve, 8100000));
+            await new Promise(resolve => setTimeout(resolve, 7200000));
         }
     } catch (error) {
         console.error('\x1b[31m%s\x1b[0m', error.message);
